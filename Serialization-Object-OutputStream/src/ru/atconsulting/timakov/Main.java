@@ -9,7 +9,7 @@ import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 
 import javax.swing.JOptionPane;
-
+//Главная программа
 public class Main {
 	private static ArrayList<Profile> profiles= new ArrayList<Profile>();
 
