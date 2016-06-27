@@ -11,7 +11,7 @@ public class Worker {
 	private Random random = new Random();
 	
 	
-	private void partOne(){
+	private void partOne() {
 		synchronized (lock1) {
 			try {
 				Thread.sleep(1);
@@ -19,9 +19,9 @@ public class Worker {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			list1.add(random.nextInt(100));			
+			list1.add(random.nextInt(100));
 		}
-		
+
 	}
 	
 	private void partTwo(){
@@ -39,8 +39,8 @@ public class Worker {
 		
 	}
 	
-	private  void proceed(){
-		for(int i=0;i<1000;i++){
+	private void proceed() {
+		for (int i = 0; i < 1000; i++) {
 			partOne();
 			partTwo();
 		}
