@@ -64,6 +64,7 @@ public class Main {
 //	            int total = rs.getInt("TOTAL");
                 System.out.println(coffeeName  );
             }
+            System.out.println("END!");
         } catch (SQLException e ) {
             System.out.println("Problems: "+e.getMessage());
 //	        JDBCTutorialUtilities.printSQLException(e);
